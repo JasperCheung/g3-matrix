@@ -48,9 +48,9 @@ void clear_screen( screen s ) {
   int x, y;
   color c;
 
-  c.red = 0;
-  c.green = 0;
-  c.blue = 0;
+  c.red = 73;
+  c.green = 54;
+  c.blue = 100;
 
   for ( y=0; y < YRES; y++ )
     for ( x=0; x < XRES; x++)      
